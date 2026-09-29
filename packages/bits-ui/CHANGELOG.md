@@ -1,5 +1,11 @@
 # bits-ui
 
+## 2.19.4
+
+### Patch Changes
+
+- fix(PopperLayer): destructure the internal `forceMount` prop out of `restProps` so it stops leaking onto the rendered content element as an invalid `forcemount` attribute (Popover, Select, Combobox, DropdownMenu, ContextMenu, Menubar, Tooltip, LinkPreview) ([#2176](https://github.com/huntabyte/bits-ui/pull/2176))
+
 ## 2.19.3
 
 ### Patch Changes
